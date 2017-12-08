@@ -13,10 +13,10 @@ const api = require('./routes/api/index');
 
 var app = express();
 
-//mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_URL}`);
-//mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_URL}`);
-mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://kels:dante34@ds117592.mlab.com:17592/appointments', {
+//Adds connection to database using mongoose
+//for <dbuser>:replace with your username, <dbpassword>: replace with your password.
+//<DATABASE_URL>: replace with database url, example:ds234562.mlab.com:17283
+mongoose.connect('<dbuser>:<dbpassword>@<DATABASE_URL>/appointments', {
   useMongoClient: true
 });
 
