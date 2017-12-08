@@ -1,0 +1,15 @@
+{
+  "name": "appointment-scheduler-web-app",
+  "version": "1.0.0",
+  "description": "An Express.js App and Vue.js App(app\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ddemo Vue.js\u001b[C\u001b[and Vue.js App \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001bAn Express.js and Vue.js App Demo\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D(appointment scheduler) Demo.",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Kohwo Orien",
+  "license": "MIT"
+}
