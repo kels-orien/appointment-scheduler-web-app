@@ -28,10 +28,11 @@ const appointmentController = {
          slots: newslot._id
        });
 
-       const nexmo = new Nexmo({
-         apiKey: 'daf6eb4c',
-         apiSecret: '50c1d40fd38c2bf3'
+      const nexmo = new Nexmo({
+         apiKey: 'API_KEY_HERE',
+         apiSecret: 'API_SECRET_HERE'
        });
+
 
        let msg =  requestBody.name + ' ' + 'this message is to confirm your appointment at' + ' ' + requestBody.appointment;
       
