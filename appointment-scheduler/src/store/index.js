@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 import { slotGetters } from './getters'
 import { slotMutations } from './mutations'
-import { appointmentActions, slotActions } from './actions'
+import { slotActions } from './actions'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -13,5 +13,5 @@ export default new Vuex.Store({
   },
   mutations: Object.assign({}, slotMutations),
   getters: Object.assign({}, slotGetters),
-  actions: Object.assign({}, appointmentActions, slotActions)
+  actions: Object.assign({}, slotActions)
 })
