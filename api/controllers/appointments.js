@@ -48,7 +48,18 @@ const appointmentController = {
                .find({_id: saved._id})
                .populate('slots')
                .exec((err, appointment) => res.json(appointment));
-       })
+           
+      const from = VIRTUAL_NUMBER;
+      const to = RECIPIENT_NUMBER;
+
+      nexmo.message.sendSms(from, to, msg, (err, responseData) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.dir(responseData);
+        }
+      });
+       });
    },
 };
 
